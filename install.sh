@@ -2,4 +2,6 @@
 
 set -e
 
-cp -rp config/* .config/
+cd "$(dirname "$0")"
+
+cp -rp config/* ~/.config/
