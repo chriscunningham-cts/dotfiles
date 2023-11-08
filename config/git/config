@@ -1,6 +1,3 @@
-[user]
-  name = chriscunningham-cts
-  email = chris.cunningham@cts.co
 [push]
   default = current
 [fetch]
