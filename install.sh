@@ -5,6 +5,7 @@ set -e
 cd "$(dirname "$0")"
 
 mkdir -p "$HOME/.local/bin"
+install bin/* "$HOME/.local/bin/"
 
 cp -rp config/* "$HOME/.config/"
 
