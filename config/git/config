@@ -12,3 +12,5 @@
 [alias]
   # https://stackoverflow.com/questions/43489303/how-can-i-delete-all-git-branches-which-have-been-squash-and-merge-via-github
   local-prune = !~/.local/bin/local-prune.sh
+  # https://stackoverflow.com/questions/14947789/github-clone-from-pull-request
+  pr = '!f() { git fetch -fu ${2:-origin} refs/pull/$1/head:pr/$1 && git checkout pr/$1; }; f'
