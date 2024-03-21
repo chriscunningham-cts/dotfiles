@@ -12,3 +12,5 @@
 [alias]
   # https://stackoverflow.com/questions/43489303/how-can-i-delete-all-git-branches-which-have-been-squash-and-merge-via-github
   local-prune = !~/.local/bin/local-prune.sh
+[core]
+	pager = cat
